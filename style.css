@@ -1,0 +1,1100 @@
+* {
+	margin : auto;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:Comic Sans MS, Comic Sans cursive;
+}
+
+body {
+font-family: Comic Sans MS, Comic Sans, cursive;
+background-color: #353434;
+margin: 0 auto;
+padding: 0;
+width: 100%;
+max-width: 1440px;
+min-width: 365px;
+
+
+}
+
+
+
+h1 { 
+color: #F802FF;
+background-color:rgb(0, 0, 0);
+font-family: Comic Sans MS, Comic Sans, cursive;
+text-align: center;
+padding: 20px 0px;
+font-weight: 500;
+font-size: 2.25em;
+text-shadow:rgb(248, 250, 249)
+
+
+
+} 
+
+@media all and (max-width: 768px) {
+	h1 {
+		width: 100%;
+
+		font-size: 2.0em;
+		
+		
+	}
+}
+
+
+
+
+
+	
+/*main page intro section start */
+.intro {
+	display: grid;
+	grid-template: 1fr 1fr / 1fr 1fr 1fr;
+
+	
+	grid-gap: 10px;
+	grid-auto-rows: 1fr; 
+	
+}
+
+
+
+@media all and (max-width: 768px)  {
+	.intro { display: block;
+		width: 100%;
+
+	 } 
+
+}
+
+
+
+
+
+
+/*I wanna center these images which I did using grid and *margin: 0 auto; */
+
+#sh {
+width: 400px;
+height: 300px;
+border: 7px solid black;
+
+}
+
+@media all and (max-width: 768px)  {
+	#sh { display: block;
+		width: 100%;
+		margin: 10px 0px;
+		
+
+	 } 
+
+}
+
+#laurs {
+	width: 400px;
+height: 300px; 
+border: 7px solid rgb(0, 0, 0)
+
+}
+
+@media all and (max-width: 768px)  {
+	#laurs { display: block;
+		width: 100%;
+
+	 } 
+
+}
+
+#circus {
+width: 400px;
+height: 300px; 
+border: 7px solid black;
+
+
+}
+
+@media all and (max-width: 768px)  {
+	#circus { display: block;
+		width: 100%;
+		margin: 10px 0px;
+
+	 } 
+
+}
+
+#spacepic {
+	width: 400px;
+height: 300px; 
+border: 7px solid black;
+grid-column-start: 3;
+grid-column-end: 4;
+
+
+}
+@media all and (max-width: 768px)  {
+	#spacepic { display: block;
+		width: 100%;
+		margin-top: 10px;
+
+	 } 
+
+}
+
+
+
+#description {
+	text-align: center;
+
+    text-shadow:3px 10px 13px #531aa3;
+	border: 5px solid black;
+	padding: 10px;
+	margin: 30px;
+	width: 185%;
+	background-color: white;
+	font-size: 22px;
+	
+	line-height: 1.5em;
+	border-radius: 10px;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	
+
+}
+/* fixed a weird issues where the whole page was not centered and to the side by adjusting the margin:) */
+@media all and (max-width: 768px) {
+	#description { display: block;
+	     background-color: white; 
+	     font-size: 22px;
+	     margin: 0;
+	     width: 100%;
+
+	     
+	 } 
+
+}
+
+
+
+
+
+
+/*main page intro section end */
+
+#Experiences {
+	background: black;
+	text-align: center;
+	font-size: 2em;
+	border: 10px solid black;
+	padding: 20px auto;
+	color: #F802FF;
+	letter-spacing: 0.3em;
+	margin: 0;
+}
+
+
+.themes {
+
+	display: grid;
+	grid-template: 1fr 1fr 1fr 1fr/ 1fr 1fr;
+	grid-auto-rows: 1fr;
+	grid-column-gap: 25px;
+	width: 99%;
+
+}
+
+@media all and (max-width: 768px) {
+	.themes {
+		grid-column-gap: 0px
+	}
+}
+
+
+
+
+
+
+
+		
+
+
+#description2 {
+	text-align: center;
+	text-shadow:3px 10px 13px #531aa3;
+	border: 5px solid black;
+	padding: 10px;
+	margin: 30px auto; 
+	background-color: white;
+	font-size: 22px;
+	width: 93%;
+	line-height: 1.5em;
+	border-radius: 10px;
+	grid-column-start: 2;
+	grid-column-end: 3;
+
+
+}
+
+@media all and (max-width: 768px) {
+	#description2 { display: block;
+		grid-column-start: 1;
+		grid-column-end: 3;
+		grid-row-start: 1;
+		grid-row-end: 2;
+		font-size: 22px;
+		margin: auto;
+		padding: 35px 0px 35px 0;
+	     
+	     
+	    
+	     
+	 } 
+
+}
+
+#oceanword {
+	border: inset 5px white;
+	color: white;
+	background-image: url(https://source.wustl.edu/wp-content/uploads/2018/11/shutterstock_abyss_760-760x507.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 200px;
+	font-size: 1.5em;
+	text-align: center;
+	text-decoration: none;
+	background-color: black;
+	margin: 0;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 4;
+
+
+
+	
+}
+
+
+
+@media all and (max-width: 768px) {
+	#oceanword { display: block;
+	     grid-column-start: 1;
+	     grid-column-end: 2;
+	     grid-row-start: 2;
+	     grid-row-end: 4;
+	     font-size: 1.4rem;
+		 width: 100%;
+		 
+		 
+	 } 
+
+}
+
+
+
+
+
+
+	#spaceword {
+		border: inset 5px white;
+		color: white;
+		font-size: 1.5em;
+		text-align: center;
+		margin: 0;
+		padding-top: 100px;
+		
+		background-image: url(https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F765877054%2F0x0.jpg%3Ffit%3Dscale);
+		background-repeat: repeat;
+
+		grid-column-start: 2;
+		grid-column-end: 3;
+		grid-row-start: 2;
+		grid-row-end: 4;
+		
+
+		
+	}
+
+	@media all and (max-width: 768px) {
+	#spaceword{ display: block;
+		font-size: 1.4rem;
+		padding-top: 200px;
+		width: 100%;
+		grid-column-start: 2;
+		grid-column-end: 3;
+		
+		
+		
+	    
+	     
+	 } 
+
+}
+
+	.themeexplain { 
+	text-align: center;
+	font-size: 1.4rem; 
+	width: 85%;
+	margin-top: 30%;
+	padding-bottom: 50px;
+	
+
+
+}
+
+
+a{
+font-weight: 700;
+color: black;
+font-size: 2.00em;
+text-decoration: none;
+
+}
+
+
+
+.menu a:hover {
+
+background-color: #F802FF;
+border-radius: 40px;
+padding: 3px .0px 3px .03px;
+}
+
+@media all and (max-width: 768px) {
+	.menu a:hover { display: block;
+	     background-color: #F802FF; 
+	     border-radius: 40px;
+	     padding: 0px 0px;
+	     
+	 } 
+
+}
+
+.menu a:active {
+	background-color: #f2f2f2;
+    border-radius: 40px;
+    padding: 3px .05px 3px .05px;
+
+}
+
+@media all and (max-width: 768px) {
+	.menu a:active { display: block;
+	     background-color: #f2f2f2; 
+	     border-radius: 40px;
+	     padding: 0px 0px;
+	     
+	 } 
+
+}
+
+.buttons {
+	border: 6px solid;
+	padding: 2px 5px;
+	border-radius: 50px;
+
+}
+
+
+@media all and (max-width: 768px) {
+	.buttons { display: block;
+	     margin: 5px 0px; 
+		 min-width: 100px;
+	 } 
+
+}
+
+
+
+ .menu {
+text-align: center;
+margin-bottom: 15px;
+padding: 10px 90px;
+background-color: #531aa3;
+border-bottom: 7px solid black;
+border-radius: 5px;
+word-spacing: 90px;
+font-size: 13px;
+
+
+}
+
+@media all and (max-width: 768px) {
+	.menu { display: block;
+	     margin: 5px 0px; 
+	     line-height: 17px;
+	     margin-top: 0px;
+		 
+		 
+	 } 
+
+}
+
+
+
+.learnmore__button {
+	text-align: center;
+	border: 5px solid black;
+	padding: 15px;
+	margin-left: 65%;
+	
+	background-color: white;
+	font-size: 22px;
+	width: 100%;
+	border-radius: 10px;
+	transition: .5s ease-in-out;
+
+
+}
+
+@media all and (max-width: 768px) {
+	   .learnmore__button { display: inline-block;
+	   	width: 100%;
+		margin-left: 50%;
+	   	font-size: 1.2rem;
+		   
+   
+	     
+	 } 
+
+}
+
+.learnmore__button:hover{
+	background-color:#F802FF;
+	cursor: pointer;
+	border-radius: 100px;
+	transition: .5s ease-in-out;
+}
+
+.learnmore__button:active {
+	background-color: #f2f2f2;
+}
+
+/* content on the media page starts here */
+
+
+.gallery {
+	height: auto;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	width: 99%;
+	grid-gap: 10px;
+	
+	
+		
+}
+
+
+.gallery :nth-child(n+0) {
+	transition:.3s ease-in-out;
+	
+}
+.gallery :nth-child(n+0):hover {
+	transition: .3s ease-in-out;
+	transform: scale(1.4);
+}
+
+.gallery :nth-child(11):hover {
+	transition: none;
+	transform: none;
+}
+
+
+
+@media all and (max-width: 768px) {
+	.gallery { display: block;
+	     margin: 5px 0px; 
+		 transition: none;
+		 transform: none;
+	 } 
+	 .gallery :nth-child(n+0):hover {
+		 transform: none;
+		 transition: none;
+	 }
+
+}
+
+/* these images need to ease out after hovering on them. ! solved by using nth-child(n+0). that selected all children*/
+
+
+
+
+
+
+.gallery img {
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	border: 5px inset black;
+	
+	
+	
+}
+
+
+
+
+
+.pic11 {
+	grid-column-start: 3;
+	grid-column-end: 5;
+	grid-row-start: 3;
+	grid-row-end: 5;
+
+
+
+}
+
+.gallery2 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	
+
+	
+}
+
+@media all and (max-width: 768px) {
+	#pic14 { display: flex;
+		flex-direction: column;
+		width: 100%;
+		
+		
+	     margin: 5px 0px; 
+	 } 
+
+}
+
+@media all and (max-width: 768px) {
+	#pic15 { display: flex;
+		flex-direction: column;
+		width: 100%;
+		
+		
+	     margin: 5px 0px; 
+	 } 
+
+}
+
+
+
+/* i am trying to fix the way this displays on smaller screens */
+
+
+
+.gallery2 img {
+	width: 49%;
+	height: 100%;
+	border: 5px inset black;
+}
+
+
+
+
+
+
+
+.videos1 {
+	
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	flex-wrap: nowrap;
+	
+	
+
+}
+
+@media all and (max-width: 768px) {
+	.videos1 { display: flex;
+		flex-direction: column;
+	     margin: 0;
+		 
+		 
+	 } 
+
+}
+
+
+#youtube__show1  {
+	width: 49%;
+	height: 404px;
+	border: 5px inset black;
+	
+	
+	
+}
+
+@media all and (max-width: 768px) {
+	#youtube__show1 { display: block;
+	     margin-top: 15px;
+	     width: 100%; 
+		 height: cover;
+		 
+		 
+	 } 
+
+}
+
+
+
+#youtube {
+	border: 5px inset black;
+	height: 404px;
+	
+	width: 49%;
+}
+
+@media all and (max-width: 768px) {
+	#youtube { display: block;
+	     margin: 5px 0px; 
+	     width: 100%;
+		 height: 320px;
+	 } 
+
+}
+
+
+.videos2 {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	flex-wrap: nowrap;
+
+}
+
+
+
+@media all and (max-width: 768px) {
+	.videos2 { display: block;
+		width: 100%;
+	     margin: 0; 
+	 } 
+
+}
+
+.youtube__show2  {
+	
+	width: 49%;
+	height: 404px;
+	border: 5px inset black;
+	
+	
+}
+
+@media all and (max-width: 768px) {
+	.youtube__show2 { display: block;
+		flex-direction: column;
+		margin-bottom: 30px;
+	     width: 100%;
+
+	 } 
+
+}
+
+.youtube__show3  {
+	width: 49%;
+	height: 404px;
+	border: 5px inset black;
+	
+	
+}
+
+
+@media all and (max-width: 768px) {
+	.youtube__show3 { display: flex;
+		flex-direction: column;
+	     margin-top: 10px;
+	     width: 100%; 
+	 } 
+
+}
+
+/* Media page content ends here*/
+
+/*about page content starts here*/
+
+
+
+.about {
+	margin: auto;
+	background-color: #ebedf2;
+	border: 5px solid black;
+	border-radius: 10px;
+	width: 75%;
+	line-height: 2.5rem;
+	font-size: 1.8rem;
+	padding: 50px;
+	word-spacing: 0.5rem;
+	text-align: center;
+}
+
+@media all and (max-width: 768px) {
+	.about { display: block;
+	     
+	     width: 100%;
+	     font-size: 1.2rem;
+
+
+	 } 
+
+}
+
+
+
+	
+
+
+#layingdown {
+	
+	width: 80%;
+	height: 400px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	transition: 1s;
+	background-size: 100%;
+	transform: scale(1);
+	transition: 0.3s ease-in-out;
+
+
+}
+
+
+
+@media all and (max-width: 768px) {
+	#layingdown { display: block;
+	     margin: 5px 0px; 
+	     width: 100%;
+	     height: 200px;
+	 } 
+	 
+	}
+	#layingdown:hover {
+		transform: scale(1.2);
+		transition: .3s ease-in-out;
+	}
+
+
+@media all and (max-width: 768px) {
+	#layingdown:hover {
+		transform: none;
+		transition: none;
+	}
+}
+
+
+
+
+#logo {
+	margin: auto;
+	height: 400px;
+	width: 300px;
+	margin-top: 5px;
+	transform:scale(1);
+	transition: .3s ease-in-out;
+	
+
+}
+
+#logo:hover  {
+	transform:scale(1.2);
+	
+		
+}
+
+@media all and (max-width: 768px) {
+	#logo {
+		margin: auto;
+		width: 100%;
+	}
+	#logo:hover {
+		transition: none;
+		transform: none;
+	}
+
+}
+
+.logoinfo {
+	background-color: none;
+	text-align: center;
+	font-size: 1.5rem;
+
+}
+
+@media all and (max-width: 768px) {
+	.logoinfo { display: block;
+	     margin: 5px 0px; 
+	     font-size: 1.2rem;
+	 } 
+
+}
+
+
+.aboutme {
+	background-color: black;
+	color: white;
+	border-radius:10px;
+	padding: 10px;
+
+}
+
+
+
+
+#me {
+	width: 300px;
+	float: left;
+	padding: 7px;
+	transform:scale(1);
+	transition: 0.3s ease-in-out;
+}
+
+
+@media all and (max-width: 768px) {
+	#me{ display: block;
+	     margin: 5px 0px; 
+	     width: 150px;
+	 } 
+
+	 #me:hover {
+		transform:scale(1.2);
+	}
+
+}
+
+.aboutme p {
+	clear: rightleft;
+}
+
+
+ #youtubelink {
+
+color: white;
+transition: .3s ease-in-out;
+font-size: 1.8rem;
+}
+
+#emaillink {
+	color: white;
+	font-size: 1.8rem;
+	transition: .3s ease-in-out;
+	
+}
+
+.aboutme a:hover {
+	background-color: #F802FF;
+	border-radius: 10px;
+	padding: 0px;
+	text-decoration: underline
+}
+
+
+
+li {
+display: inline-block;
+list-style: none;
+margin: 0px 20px;
+
+}
+
+
+
+
+/* events page conetent starts here */
+
+#upcoming {
+	text-align: center;
+	background-color: black;
+	color: #F802FF;
+	padding: 10px;
+	font-size: 1.8rem;
+	letter-spacing: .70rem;
+	
+}
+
+.container {
+	background-image: url(../images/audioblanketletter.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+	height: 500px;
+	background-color: black;
+	display: flex;
+
+}
+
+@media all and (max-width: 768px) {
+	.container { display: block;
+	     margin: 5px 0px; 
+	     height: 200px;
+	 } 
+
+}
+
+
+
+
+#upcomingstuff {
+	color: white;
+	font-size: 3rem;
+	margin-top: 4em;
+
+	height: 100%;
+
+}
+
+@media all and (max-width: 768px) {
+	#upcomingstuff { display: block;
+	     
+	     height: 100%;
+	     margin: auto;
+	     text-align: right;
+		 
+	     font-size: 2rem;
+
+	 } 
+
+}
+
+
+
+
+
+
+#pastevents{
+	text-align: center;
+	background-color: black;
+	color: #F802FF;
+	padding: 10px;
+}
+
+
+
+.pastshows {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-wrap: wrap;
+	margin-bottom: 15px;
+	font-size: 1.8rem;
+
+	
+
+}
+
+.pastshows img {
+	width: 300px;
+	height: 400px;
+	margin: 20px 0px;
+	transition:.3s ease-in-out;
+	
+	
+}
+
+ 
+	
+.pastshows :nth-child(n+0):hover {
+	transform:scale(1.2);
+	transition:.3s ease-in-out;
+}
+
+/* this media query kicked my ass. Dont forget to add a space after the "all and (etc)" ughh.That fixed the smaller screen hover canceling issue */
+@media  all and (max-width: 768px) {
+
+	.pastshows :nth-child(n+0):hover{
+		transform:none;
+		transition:none;
+	}
+}
+/* events page styling ends here */
+
+	
+
+
+
+
+
+
+.footer {
+	background-color: black;
+	border: 1px solid white;
+    color: white;
+	height: 9rem;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+
+	
+	
+	
+	
+}
+
+#facebook {
+	width: 60px;
+	height: 40px;
+	border-color: red;
+	background-color: white;
+	
+
+
+}
+
+#facebook:hover {
+
+transform:scale(1.3);
+	transition: .3s ease-in-out;
+
+}
+
+@media all and (max-width: 768px) {
+	#facebook:hover {
+		transform:none;
+		transition: none;
+		
+	}
+}
+
+
+#instagram {
+	width: 60px;
+	height: 40px;
+	border-color: red;
+	background-color: white;
+	margin-left: 20px;
+
+}
+
+#instagram:hover {
+
+	transform:scale(1.3);
+	transition: .3s ease-in-out;
+}
+
+@media all and (max-width: 768px) {
+	#instagram:hover {
+		transform: none;
+		transition: none;
+		
+	}
+}
+
+
+.footer a {
+	color: white;
+	font-size: 1.5rem;
+	
+}
+
+
+
+/* I was able go position this at the very bottom of the page by using
+align-items: flex-end; in display: flex; */
+
+
+
+ 
+
+
