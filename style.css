@@ -737,6 +737,7 @@ font-size: 13px;
 	     font-size: 1.5rem;
 	     width: 100%;
 	     font-size: 1.2rem;
+		 line-height: 2.0rem;
 
 
 	 } 
@@ -839,6 +840,14 @@ font-size: 13px;
 	border-radius:10px;
 	padding: 10px;
 
+}
+
+@media all and (max-width: 768px) {
+	.aboutme {
+
+	font-size: 1.0rem;
+	line-height: 2.0rem;
+}
 }
 
 
