@@ -19,7 +19,7 @@ min-width: 365px;
 
 
 
-h1 { 
+.title { 
 color: #F802FF;
 background-color:rgb(0, 0, 0);
 font-family: Comic Sans MS, Comic Sans, cursive;
@@ -27,14 +27,12 @@ text-align: center;
 padding: 20px 0px;
 font-weight: 500;
 font-size: 2.25em;
-text-shadow:rgb(248, 250, 249)
-
-
+text-shadow:rgb(248, 250, 249);
 
 } 
 
 @media all and (max-width: 768px) {
-	h1 {
+	 .title {
 		width: 100%;
 
 		font-size: 2.0em;
@@ -181,7 +179,7 @@ grid-column-end: 4;
 
 
 
-/*main page intro section end */
+/* intro page intro section end */
 
 #Experiences {
 	background: black;
@@ -474,12 +472,14 @@ font-size: 13px;
 /* content on the media page starts here */
 
 
+
 .gallery {
 	height: auto;
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: repeat(4, 1fr);
 	width: 99%;
+
 	grid-gap: 10px;
 	
 	
@@ -525,7 +525,7 @@ font-size: 13px;
 
 .gallery img {
 	width: 100%;
-	height: 100%;
+	height: auto;
 	margin: auto;
 	border: 5px inset black;
 	
@@ -542,6 +542,7 @@ font-size: 13px;
 	grid-column-end: 5;
 	grid-row-start: 3;
 	grid-row-end: 5;
+	
 
 
 
